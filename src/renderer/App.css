@@ -1,0 +1,12 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+@import '~antd/dist/antd.css';
+
+.body-content{
+  height: calc(100vh - 135px);
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 20px;
+}

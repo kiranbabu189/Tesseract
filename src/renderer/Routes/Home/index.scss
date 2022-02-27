@@ -1,0 +1,9 @@
+.tesseract-dashboard{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  .add-product{
+    display: flex;
+    justify-content: flex-end;
+  }
+}
